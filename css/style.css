@@ -5,6 +5,23 @@
     box-sizing: border-box;
 }
 
+/* TRIGGERS */
+.img-gallery img:last-child {
+    display: none;
+}
+
+.top-card:hover .img-gallery img:first-child{
+    display: none;
+}
+
+.top-card:hover .img-gallery img:last-child{
+    display: block;
+}
+
+.toggle-wish-list:hover {
+    color: red;
+}
+
 /* GLOBAL */
 .content {
     width: 80%;
@@ -16,6 +33,7 @@
 }
 
 .card {
+    position: relative;
     background-color: bisque;
     width: calc(100% / 3);
 }
@@ -29,10 +47,6 @@
 
 .img-gallery img {
     width: 100%;
-}
-
-.img-gallery img:last-child {
-    display: none;
 }
 
 .toggle-wish-list {
