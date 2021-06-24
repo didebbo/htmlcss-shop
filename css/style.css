@@ -1,5 +1,54 @@
+/* Reset */
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+/* GLOBAL */
+.content {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    background-color: azure;
+}
+
+.card {
+    background-color: bisque;
+    width: calc(100% / 3);
+}
+
+/* TOP CARD */
+.top-card {
+    position: relative;
+    height: 80%;
+    background-color: blanchedalmond;
+}
+
+.img-gallery img {
+    width: 100%;
+}
+
+.img-gallery img:last-child {
+    display: none;
+}
+
+.toggle-wish-list {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+/* .nav-gallery img:last-child:hover .img-gallery img:last-child {
+    display: block;
+} */
+
+/* BOTTOM CARD */
+.bottom-card {
+    background-color: cadetblue;
+    width: 100%;
 }
