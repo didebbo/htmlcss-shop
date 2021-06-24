@@ -41,6 +41,9 @@ body {
 .card {
     background-color: bisque;
     width: calc(100% /3);
+    border: 0px solid;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 /* TOP CARD */
@@ -71,11 +74,12 @@ body {
 
 .tag {
     background-color: gray;
-    border: 1px solid;
+    /* border: 1px solid; */
     border-radius: 4px;
     padding: 5px;
     color: whitesmoke;
-    font-size: 0.8em;
+    font-size: 0.9em;
+    font-weight: bold;
 }
 
 /* BOTTOM CARD */
@@ -110,9 +114,18 @@ body {
 
 .add-cart button {
     padding: 5px;
-    border: 1px solid;
+    border: 0px solid;
     border-radius: 4px;
     background-color: cornflowerblue;
     color: whitesmoke;
+}
+
+/* STYLING */
+.tag.bg-color-red {
+    background-color: red;
+}
+
+.tag.bg-color-green {
+    background-color: green;
 }
 
