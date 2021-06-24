@@ -33,19 +33,18 @@
 }
 
 .card {
-    position: relative;
     background-color: bisque;
-    width: calc(100% / 3);
+    width: calc(100% /3);
 }
 
 /* TOP CARD */
 .top-card {
     position: relative;
-    height: 80%;
     background-color: blanchedalmond;
 }
 
-.img-gallery img {
+.img-gallery img{
+    display: block;
     width: 100%;
 }
 
@@ -57,12 +56,8 @@
     background-color: white;
 }
 
-/* .nav-gallery img:last-child:hover .img-gallery img:last-child {
-    display: block;
-} */
-
 /* BOTTOM CARD */
 .bottom-card {
-    background-color: cadetblue;
+    background-color: #fff;
     width: 100%;
 }
