@@ -29,6 +29,7 @@
 body {
     background-color: azure;
 }
+
 .content {
     width: 80%;
     margin: 20px auto;
@@ -37,6 +38,7 @@ body {
 .card {
     display: inline-block;
     padding: 10px;
+    margin-left: -4px;
     width: calc(100% / 3);
     max-width: 500px;
     overflow: hidden;
@@ -50,11 +52,6 @@ body {
     overflow: hidden;
 }
 
-.img-gallery img{
-    display: block;
-    width: 100%;
-}
-
 .toggle-wish-list {
     position: absolute;
     top: 20px;
@@ -63,6 +60,12 @@ body {
     background-color: white;
     font-size: 18px;
 }
+
+.img-gallery img{
+    display: block;
+    width: 100%;
+}
+
 
 .tags {
     position: absolute;
