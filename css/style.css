@@ -47,7 +47,7 @@ body {
 }
 
 header {
-    height: 50px;
+    height: 60px;
 }
 
 nav {
@@ -62,7 +62,15 @@ nav {
 #logo {
     float: left;
     height: 100%;
-    padding: 15px;
+    color: white;
+    margin: auto 15px;
+}
+
+#logo h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav .search {
